@@ -1,0 +1,13 @@
+{
+  "name": "how-does-lazy-loading-work",
+  "version": "0.1.0",
+  "description": "Sample code of lazy loading implementation with appending script to the HTML.",
+  "author": "Srecko Kostic",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "prettier": "^2.6.2"
+  }
+}
