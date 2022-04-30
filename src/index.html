@@ -4,5 +4,14 @@
     <meta charset="UTF-8" />
     <title>How does lazy loading work?</title>
   </head>
-  <body></body>
+  <body>
+    <h1>How does lazy loading work?</h1>
+    <p>Click the button below to lazy load the chunk.</p>
+    <!--  Add the id to follow a good practise and use
+addEventListener method  -->
+    <button id="chunk-loader">Load the chunk</button>
+
+    <!--  First, I will add the script tag pointing to the "bundle"  -->
+    <script defer src="bundle.js"></script>
+  </body>
 </html>
